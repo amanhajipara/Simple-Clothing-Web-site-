@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NovaWear — Minimal Clothing</title>
+  <meta name="description" content="Simple & attractive clothing brand website">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner container">
+    <div class="brand">NovaWear</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <h2>Contact</h2>
+  <p>Have a question or wholesale inquiry? Send a message and we'll get back soon.</p>
+  <form name="contact" netlify>
+    <div class="row">
+      <div>
+        <label>Name</label>
+        <input type="text" name="name" required>
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+    </div>
+    <label>Message</label>
+    <textarea name="message" rows="6" required></textarea>
+    <div style="margin-top:10px"><button type="submit">Send</button></div>
+  </form>
+  <p style="margin-top:14px">Or email <a href="mailto:hello@novawear.example">hello@novawear.example</a></p>
+</main>
+
+<footer>
+  © 2025 NovaWear · Minimal apparel made easy · <a href="mailto:hello@novawear.example">hello@novawear.example</a>
+</footer>
+
+</body>
+</html>
